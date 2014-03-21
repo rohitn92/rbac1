@@ -7,7 +7,7 @@ $password = "nanak14";
 $table= "LOGIN";
 
 // Connect to server and select databse.
-mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
+mysql_connect("$host", "$user", "$password")or die("cannot connect"); 
 mysql_select_db("$database")or die("cannot select DB");
 
 // username and password sent from form 
