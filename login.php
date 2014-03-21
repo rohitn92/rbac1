@@ -1,13 +1,13 @@
 <?php
 
-$host = "mysql14.000webhost.com";
-$database = "a6810547_rbac1";
-$user = "a6810547_rohit";
-$password = "nanak14";
+$host = "sql2.freemysqlhosting.net";
+$database = "sql233894";
+$user = "sql233894";
+$password = "lY4%yP1!";
 $table= "LOGIN";
 
 // Connect to server and select databse.
-mysql_connect("www.mysql14.000webhost.com", "a6810547_rohit", "nanak14")or die("xcantx"); 
+mysql_connect($host,$user,$password) or die("xcantx"); 
 mysql_select_db("$database")or die("cannot select DB");
 
 // username and password sent from form 
