@@ -2,7 +2,7 @@
 
 $host = "sql2.freemysqlhosting.net";
 $database = "sql233894";
-$user = "sql233894";
+$user = "sql23384";
 $password = "lY4%yP1!";
 $table= "LOGIN";
 
