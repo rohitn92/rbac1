@@ -1,5 +1,5 @@
 <?php
-ob_start();
+
 $host = "sql2.freemysqlhosting.net";
 $database = "sql233894";
 $user = "sql233894";
@@ -35,6 +35,5 @@ header("location:login_success.php");
 else {
 echo "Wrong Username or Password";
 }
-ob_end_flush();
 
 ?>
