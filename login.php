@@ -6,7 +6,7 @@ $user = "sql233894";
 $password = "lY4%yP1!";
 $table= "LOGIN";
 // Connect to server and select databse.
-mysql_connect("$host", "$username", "$password")or die("cannot connect"); 
+mysql_connect($host, $username, $password)or die("cannot connect"); 
 mysql_select_db("$database")or die("cannot select DB");
 
 // Define $myusername and $mypassword 
